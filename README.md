@@ -11,3 +11,10 @@ bash -c "$(wget -qO - https://raw.githubusercontent.com/MajesticTechie/wsl-backu
 # Import with:
 
 bash -c "$(wget -qO - https://raw.githubusercontent.com/MajesticTechie/wsl-backup/main/import.sh)"
+
+# Powershell Commands for WSL
+List Distributions:
+wsl --list --verbose
+
+Remove a distribution:
+ wsl --unregister <name>
