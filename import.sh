@@ -1,5 +1,9 @@
 #!bin/bash
 
+#Update
+sudo apt update -y
+sudo apt upgrade -y
+
 # Install Tools
 sudo apt install curl dnsutils whois git ipcalc ftp telnet lftp mtr nmap -y
 
