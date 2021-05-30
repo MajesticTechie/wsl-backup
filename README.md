@@ -14,7 +14,7 @@ bash -c "$(wget -qO - https://raw.githubusercontent.com/MajesticTechie/wsl-backu
 
 # Powershell Commands for WSL
 List Distributions:
-wsl --list --verbose
+ wsl --list --verbose
 
 Remove a distribution:
- wsl --unregister <name>
+  wsl --unregister <name>
