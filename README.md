@@ -21,4 +21,4 @@ List Distributions:
 
 Remove a distribution:
 
-  wsl --unregister NAME
+  wsl --unregister <NAME>
