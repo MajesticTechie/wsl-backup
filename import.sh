@@ -26,4 +26,7 @@ sudo curl https://raw.githubusercontent.com/MajesticTechie/wsl-backup/main/wsl.c
 
 # regenerate resolv.conf
 sudo rm /etc/resolv.conf
-echo nameserver 1.1.1.1 | sudo tee /etc/resolv.conf >/dev/null
+sudo tee /etc/resolv.conf >/dev/null <<EOF
+nameserver 1.1.1.1
+nameserver 9.9.9.9
+EOF
