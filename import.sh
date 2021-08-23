@@ -22,7 +22,10 @@ sudo cat /mnt/c/wsl-backup/.bashrc > ~/.bashrc
 git clone git@github.com:MajesticTechie/scripts.git
 
 # Set Manual DNS
-sudo curl https://raw.githubusercontent.com/MajesticTechie/wsl-backup/main/wsl.conf > /etc/wsl.conf
+sudo tee /etc/wsl.conf >/dev/null <<EOF
+[network]
+generateResolvConf = false
+EOF
 
 # regenerate resolv.conf with preferred resolvers
 sudo rm /etc/resolv.conf
