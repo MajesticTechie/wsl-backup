@@ -24,7 +24,7 @@ git clone git@github.com:MajesticTechie/scripts.git
 # Set Manual DNS
 sudo curl https://raw.githubusercontent.com/MajesticTechie/wsl-backup/main/wsl.conf > /etc/wsl.conf
 
-# regenerate resolv.conf
+# regenerate resolv.conf with preferred resolvers
 sudo rm /etc/resolv.conf
 sudo tee /etc/resolv.conf >/dev/null <<EOF
 nameserver 1.1.1.1
