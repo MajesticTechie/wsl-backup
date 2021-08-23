@@ -15,10 +15,10 @@ WSL export and import scripts, Useful for when reinstalling WSL
 # Powershell Commands for WSL
 List Distributions:
 
- wsl --list --verbose
+`wsl --list --verbose`
 
 ==========================
 
 Remove a distribution:
 
-  wsl --unregister <NAME>
+`wsl --unregister <NAME>`
