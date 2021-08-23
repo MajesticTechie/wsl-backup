@@ -6,11 +6,11 @@ WSL export and import scripts, Useful for when reinstalling WSL
 
 # Export with:
 
-bash -c "$(wget -qO - https://raw.githubusercontent.com/MajesticTechie/wsl-backup/main/export.sh)"
+`bash -c "$(wget -qO - https://raw.githubusercontent.com/MajesticTechie/wsl-backup/main/export.sh)"`
 
 # Import with:
 
-bash -c "$(wget -qO - https://raw.githubusercontent.com/MajesticTechie/wsl-backup/main/import.sh)"
+`bash -c "$(wget -qO - https://raw.githubusercontent.com/MajesticTechie/wsl-backup/main/import.sh)"`
 
 # Powershell Commands for WSL
 List Distributions:
