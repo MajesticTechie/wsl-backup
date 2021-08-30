@@ -18,9 +18,6 @@ sudo cat /mnt/c/wsl-backup/ssh_config > /etc/ssh/ssh_config
 #import bashrc
 sudo cat /mnt/c/wsl-backup/.bashrc > ~/.bashrc
 
-# Install Scripts
-git clone git@github.com:MajesticTechie/scripts.git
-
 # Set Manual DNS
 sudo tee /etc/wsl.conf >/dev/null <<EOF
 [network]
